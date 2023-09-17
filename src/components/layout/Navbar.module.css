@@ -1,0 +1,8 @@
+.container_img_tamble {
+    list-style: none;    
+}
+
+.container_img_tamble a img{
+    width: 120px;
+    height: 70px;
+}
