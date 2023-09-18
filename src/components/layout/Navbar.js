@@ -13,46 +13,46 @@ import TransformersSevenImg from '../../img/transformers-tumble-7.png'
 
 function Navbar() {
     return (
-    <>
+    <div className={styles.container_img_tamble}>
         <Container>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/" >
                     <img src={TransformersOneImg} />
                 </Link>
             </li>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/transformerstwo" >
                     <img src={TransformersTwoImg} />
                 </Link>
                 
             </li>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/transfromersthree" >
                     <img src={TransformersThreeImg} />
                 </Link>
             </li>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/transformersfour" >
                     <img src={TransformersFourImg} />
                 </Link>
             </li>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/transformersfive" >
                     <img src={TransformersFiveImg} />
                 </Link>
             </li>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/transformerssix" >
                     <img src={TransformersSixImg} />
                 </Link>
             </li>
-            <li className={styles.container_img_tamble}>
+            <li>
                 <Link to="/transformersseven" >
                     <img src={TransformersSevenImg} />
                 </Link>
             </li>
         </Container>
-    </>
+    </div>
     )
 }
 

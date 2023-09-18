@@ -1,18 +1,18 @@
 .container{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
     margin: 20px 50px;
 }
 
 .back_groud {
     height: 100vh;
     width: 100%;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: -114px 0px 0px;
+    margin: 0px;
 }
 
 .backgound_img_1 {
@@ -42,3 +42,5 @@
 .backgound_img_7 {
     background-image: url("../img/transformers-7.jpg");
 }
+
+
