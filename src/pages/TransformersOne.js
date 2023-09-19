@@ -1,10 +1,12 @@
 import Container from "../components/Container"
+import SwitchInfor from "../components/layout/SwitchInfor"
 import styles from "./PagesAll.module.css"
 
 function TransformersOne() {
     return (
         <div>
            <Container backGroundCustom="back_groud" backGroundImgCustom="backgound_img_1">
+            <SwitchInfor />
             <div className={styles.text}>
                 <h1>Transformers</h1>
             <p>

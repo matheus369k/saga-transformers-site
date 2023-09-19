@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import styles from './Navbar.module.css'
+import styles from './NavbarPages.module.css'
 import Container from "../Container";
 
 import TransformersOneImg from '../../img/transformers-tumble-1.png'
@@ -12,6 +12,7 @@ import TransformersSixImg from '../../img/transformers-tumble-6.png'
 import TransformersSevenImg from '../../img/transformers-tumble-7.png'
 
 function Navbar() {
+
     return (
     <div className={styles.container_img_tamble}>
         <Container>

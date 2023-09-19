@@ -1,0 +1,26 @@
+.list_icons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.list_icons li {
+    list-style: none;
+}
+
+.list_icons a {
+    padding:1px 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.list_icons a:hover {
+    transition: .5s;
+    background-color: rgb(152, 151, 151);
+}
