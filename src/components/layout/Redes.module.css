@@ -1,0 +1,15 @@
+.redes {
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.redes {
+    list-style: none;
+}
+
+.redes img{
+    margin: 20px 0px;
+    width: 30px;
+} 
