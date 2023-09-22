@@ -77,6 +77,10 @@ li {
     color: rgb(182, 182, 255);
 }
 
+.infor_dublador_ator a:hover {
+    color: rgb(35, 81, 130);
+}
+
 .infor_dublador_ator li {
     font-weight: bold;
     font-size: 1em;
@@ -91,6 +95,13 @@ li {
     height: 80px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
+}
+
+
+.infor_dublador_ator img:hover {
+    border: 1px solid #235182;
+    transition: .5s;
+    transform: scale(110%);
 }
 
 .position_normal{
@@ -110,3 +121,33 @@ li {
 .position_reverser img {
     margin-left: 20px;
 } 
+
+.midia{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.709);
+}
+
+.midia div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 60%;
+    min-height: 60%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
+
+.midia iframe{
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    min-height: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.568);
+    border-radius: 40px 0 40px 0;
+}
