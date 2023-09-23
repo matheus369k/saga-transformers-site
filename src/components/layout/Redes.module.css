@@ -7,14 +7,24 @@
 
 .redes {
     list-style: none;
+    gap: 40px;
 }
 
-.redes img{
+svg {
     margin: 20px 0px;
-    width: 30px;
-} 
+    font-size: 2em;
+    color: rgb(255, 241, 241);
+}
 
-.redes img:hover {
-    transition: 1s;
-    transform: scale(120%);
+.github_icon svg {
+    color: rgb(255, 255, 255);
+}
+
+.linkedin_icon svg {
+    color: #2222d0;
+}
+
+.redes svg:hover {
+    transition: .5s;
+    transform: scale(130%);
 }

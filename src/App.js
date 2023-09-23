@@ -10,7 +10,6 @@ import TransformersSix from './pages/TransformersSix';
 import TransformersSeven from './pages/TransformersSeven';
 
 import Navbar from './components/layout/NavbarPages';
-import Container from './components/Container';
 
 function App() {
   return (

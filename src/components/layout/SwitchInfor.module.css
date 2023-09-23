@@ -34,6 +34,8 @@ li {
     height: 100%;
     color: white;
     background-color: rgba(0, 0, 0, 0.709);
+    
+    transition:  3s;
 }
 
 .sinopse h1{
@@ -65,6 +67,8 @@ li {
     color: white;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.709);
+    
+    transition: 3s;
 }
 
 .infor_dublador_ator ul{
@@ -126,6 +130,8 @@ li {
     height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.709);
+    
+    transition: 3s;
 }
 
 .midia div {
@@ -138,6 +144,7 @@ li {
     height: auto;
     transform: translateX(-50%) translateY(-50%);
     transition: 1s opacity;
+    z-index: 0;
 }
 
 .midia iframe{
