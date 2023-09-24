@@ -1,8 +1,9 @@
 .redes {
     position: fixed;
-    left: 0%;
+    left: 10px;
     top: 50%;
     transform: translate(0%, -50%);
+    z-index: 0;
 }
 
 .redes {

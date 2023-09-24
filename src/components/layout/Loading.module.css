@@ -1,19 +1,13 @@
-.loading_container::after{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.941);
-    z-index: 2;
+.loading_container{
+    position: absolute;
+    z-index: 1;
 }
 
-.loading_container img{
-    width: 100px;
-    height: 100px;
-    border: 2px solid white;
+.loading_container svg{
+    font-size: 4em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+

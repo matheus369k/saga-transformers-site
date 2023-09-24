@@ -25,9 +25,11 @@ function SwitchInfor({ page, linkTrailer }) {
                 <li onClick={() => setInforPage(2)}></li>
                 <li onClick={() => setInforPage(3)}></li>
             </ul>
-
+            
             {page === 1 && inforPage === 1 &&
+                
                 <section className={styles.sinopse}>
+                    <Loading />
                     <h1>Transformers</h1>
                     <h2>Sinopse</h2>
                     <p>
@@ -37,7 +39,7 @@ function SwitchInfor({ page, linkTrailer }) {
             }
             {page === 1 && inforPage === 2 &&
                 <section className={styles.infor_dublador_ator}>
-                    <Loading />
+                <Loading />
                     <ul>
                         <li className={styles.position_normal}>
                             <img src={SamWitwicky} />
@@ -127,12 +129,11 @@ function SwitchInfor({ page, linkTrailer }) {
             { page === 1 && inforPage === 3 &&
                 <section className={styles.midia}>
                     <div>
-                        <iframe src={`${linkTrailer}&amp;controls=0`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen set-cookie="true" promo_shown='1' max-age="2600000" samesite="none" secure="true">Vidios Indisponivel!</iframe>
+                        <Loading />
+                        <iframe src={`${linkTrailer}&amp;controls=0`} frameBorder="0"  allowFullScreen set-cookie="false" promo_shown='1' max-age="2600000" samesite="none" secure="true">Vidios Indisponivel!</iframe>
                     </div>
                 </section>
             }
-
-
         </>
     )
     

@@ -1,4 +1,5 @@
 import styles from './Container.module.css'
+import Loading from './layout/Loading'
  
 function Container({ children, backGroundImgCustom, backGroundCustom, textClassCustom }) {
     return (

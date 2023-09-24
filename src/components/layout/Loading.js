@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
-import simbolo from "../../img/gif-simbolo-decpticom-autobots.gif"
+import { RiLoader3Fill } from "react-icons/ri"
 
 import styles from "./Loading.module.css"
-import TransformersOne from "../../pages/TransformersOne"
 
-const Loading = () => {
+
+const Loading = (classCustomPosition) => {
     const [time, setTime] = useState(true)
 
     useEffect (() => {
@@ -12,12 +12,15 @@ const Loading = () => {
             setTime(false)
         }, 3000)
         
-    })
-
+    }, [])
+    console.log(time);
     return (
-        <div className={styles.loading_container}>
-            {time === true && <img src={simbolo} />}
-        </div>
+        <>
+            {time === true && 
+            <div className={styles.loading_container} >
+                <RiLoader3Fill />  
+            </div>}
+        </>
     )
 }
 
