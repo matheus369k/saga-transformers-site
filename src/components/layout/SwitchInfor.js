@@ -11,12 +11,13 @@ import MaggieMadsen from "../../img/Rachael-Taylor.jpg"
 import Glenn from "../../img/Glen-Whitmann.jpg"
 import Miles from "../../img/Miles.jpg"
 import BobbyBolivia from "../../img/Bobby-Bolivia.jpg"
+
 import Loading from "./Loading"
 
-function SwitchInfor({ page, linkTrailer }) {
+function SwitchInfor({ page, linkTrailer, title, textSinopse }) {
     const [inforPage, setInforPage] = useState(1)
 
-    
+    console.log(title)
 
     return ( 
         <>
@@ -30,11 +31,9 @@ function SwitchInfor({ page, linkTrailer }) {
                 
                 <section className={styles.sinopse}>
                     <Loading />
-                    <h1>Transformers</h1>
+                    <h1>{title}</h1>
                     <h2>Sinopse</h2>
-                    <p>
-                        Os Transformers alienígenas gigantes que vivem na Terra camuflados sob a forma de carros, aviões e aparelhos eletrônicos, batalham por uma fonte de energia escondida em nosso planeta: são os cruéis Decepticons, determinados a dominar o Universo, contra os pacíficos Autobots. Enquanto isso, os adolescentes Sam e Mikaela vivem tranquilamente sua vida sem saber que a fonte tão cobiçada pelos alienígenas está com eles.
-                    </p>
+                    <p>{textSinopse}</p>
                 </section>
             }
             {page === 1 && inforPage === 2 &&
