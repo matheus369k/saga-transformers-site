@@ -13,7 +13,7 @@ import Navbar from './components/layout/NavbarPages';
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <Navbar />
         <Routes>
@@ -26,7 +26,7 @@ function App() {
           <Route path='/transformersseven' element={<TransformersSeven />} />
         </Routes>
       </Router>
-    </div>
+    </>
   );
 }
 
