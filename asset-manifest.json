@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/saga-transformers-site/static/css/main.142a81ce.css",
+    "main.js": "/saga-transformers-site/static/js/main.9b035e1a.js",
+    "static/media/transformers-6.jpg": "/saga-transformers-site/static/media/transformers-6.4905a9488218d2e0c3c0.jpg",
+    "static/media/transformers-5.jpg": "/saga-transformers-site/static/media/transformers-5.f19ddf65f422af6ef41e.jpg",
+    "static/media/transformers-7.jpg": "/saga-transformers-site/static/media/transformers-7.112139e3f7e469cbfc8d.jpg",
+    "static/media/transformers-3.jpg": "/saga-transformers-site/static/media/transformers-3.eae51e7685442bffd3c7.jpg",
+    "static/media/transformers-4.jpg": "/saga-transformers-site/static/media/transformers-4.c8ae6de51408b5ee1ef8.jpg",
+    "static/media/transformers-1.jpg": "/saga-transformers-site/static/media/transformers-1.c31447c3320b9b1c22d9.jpg",
+    "static/media/transformers-2.jpg": "/saga-transformers-site/static/media/transformers-2.5ecb52c1a2f349e8b7e7.jpg",
+    "static/media/transformers-tumble-7.png": "/saga-transformers-site/static/media/transformers-tumble-7.4841ae640a9929d5dfbf.png",
+    "static/media/transformers-tumble-3.png": "/saga-transformers-site/static/media/transformers-tumble-3.661d50e21235a679b02a.png",
+    "static/media/transformers-tumble-4.png": "/saga-transformers-site/static/media/transformers-tumble-4.9c131a703fdfe8f07f01.png",
+    "static/media/transformers-tumble-2.png": "/saga-transformers-site/static/media/transformers-tumble-2.ffe887d20d040c509a1a.png",
+    "static/media/Glen-Whitmann.jpg": "/saga-transformers-site/static/media/Glen-Whitmann.73d0b9d66a74f160dcdb.jpg",
+    "static/media/transformers-tumble-1.png": "/saga-transformers-site/static/media/transformers-tumble-1.bd07859f287b23eb81ad.png",
+    "static/media/John-Keller.jpg": "/saga-transformers-site/static/media/John-Keller.3aaeda50dc2ea85cb6da.jpg",
+    "static/media/Agent_simmons.jpg": "/saga-transformers-site/static/media/Agent_simmons.8aec596d1038451024ff.jpg",
+    "static/media/Epps.jpg": "/saga-transformers-site/static/media/Epps.abaea8c2effb073f2552.jpg",
+    "static/media/transformers-tumble-5.png": "/saga-transformers-site/static/media/transformers-tumble-5.c14d221ef876df9dbc21.png",
+    "static/media/Bobby-Bolivia.jpg": "/saga-transformers-site/static/media/Bobby-Bolivia.3fab2ee2d62de48f1641.jpg",
+    "static/media/Capt.-William-Lennox.jpg": "/saga-transformers-site/static/media/Capt.-William-Lennox.2a851b36b0d13f74c14b.jpg",
+    "static/media/transformers-tumble-6.png": "/saga-transformers-site/static/media/transformers-tumble-6.4f0b6888021db61b652f.png",
+    "static/media/Mikaela-Banes.jpg": "/saga-transformers-site/static/media/Mikaela-Banes.0528d4b12d5ab9897aad.jpg",
+    "static/media/Sam-Witwicky.jpg": "/saga-transformers-site/static/media/Sam-Witwicky.5ca8b9c02e5712fc3ec1.jpg",
+    "static/media/Rachael-Taylor.jpg": "/saga-transformers-site/static/media/Rachael-Taylor.59283ea59309b388f4bb.jpg",
+    "static/media/Miles.jpg": "/saga-transformers-site/static/media/Miles.e8433f34efdb827a1283.jpg",
+    "index.html": "/saga-transformers-site/index.html",
+    "main.142a81ce.css.map": "/saga-transformers-site/static/css/main.142a81ce.css.map",
+    "main.9b035e1a.js.map": "/saga-transformers-site/static/js/main.9b035e1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.142a81ce.css",
+    "static/js/main.9b035e1a.js"
+  ]
+}
