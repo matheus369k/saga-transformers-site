@@ -16,15 +16,15 @@ function App() {
     <div>
       <Router>
         <Navbar />
-          <Routes>
-            <Route path='/' element={<TransformersOne />} />
-            <Route path='/transformerstwo' element={<TransformersTwo />} />
-            <Route path='/transfromersthree' element={<TransformersThree />} />
-            <Route path='/transformersfour' element={<TransformersFour />} />
-            <Route path='/transformersfive' element={<TransformersFive />} />
-            <Route path='/transformerssix' element={<TransformersSix />} />
-            <Route path='/transformersseven' element={<TransformersSeven />} />
-          </Routes>
+        <Routes>
+          <Route path='/' element={<TransformersOne />} />
+          <Route path='/transformerstwo' element={<TransformersTwo />} />
+          <Route path='/transfromersthree' element={<TransformersThree />} />
+          <Route path='/transformersfour' element={<TransformersFour />} />
+          <Route path='/transformersfive' element={<TransformersFive />} />
+          <Route path='/transformerssix' element={<TransformersSix />} />
+          <Route path='/transformersseven' element={<TransformersSeven />} />
+        </Routes>
       </Router>
     </div>
   );
