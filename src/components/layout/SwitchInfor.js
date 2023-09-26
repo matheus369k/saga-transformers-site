@@ -14,12 +14,11 @@ import BobbyBolivia from "../../img/Bobby-Bolivia.jpg"
 
 import Loading from "./Loading"
 
-function SwitchInfor({ page, linkTrailer, title, textSinopse }) {
+function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
     const [inforPage, setInforPage] = useState(1)
+    let renderList = 0
 
-    console.log(title)
-
-    return ( 
+    return (
         <>
             <ul className={styles.list_icons}>
                 <li onClick={() => setInforPage(1)}></li>
@@ -38,90 +37,113 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse }) {
             }
             {page === 1 && inforPage === 2 &&
                 <section className={styles.infor_dublador_ator}>
-                <Loading />
+                    <Loading />
                     <ul>
-                        <li className={styles.position_normal}>
-                            <img src={SamWitwicky} />
+
+                        {atores.length >= 1 &&
+                        <li key={atores[0].ator1} className={styles.position_normal}>
+                            <img src={atores[0].img1} />
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Shia_LaBeouf" target="blank">
-                                    Shia LaBeouf
-                                </a> como Sam Witwicky
+                                <a href={atores[0].link1} target="_blank">
+                                    {atores[0].ator1}
+                                </a> {atores[0].personagem1}
                             </p>
-                        </li>
+                        </li>}
+
+                        {atores.length >= 2 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Megan_Fox" target="blank">
-                                    Megan Fox
-                                </a> como Mikaela Banes
+                                <a href={atores[1].link2} target="_blank">
+                                    {atores[1].ator2}
+                                </a> {atores[1].personagem2}
                             </p>
-                            <img src={MikaelaBanes} />
-                        </li>
+                            <img src={atores[1].img2} />
+                        </li>}
+
+                        {atores.length >= 3 &&
                         <li className={styles.position_normal}>
-                            <img src={WilliamLennox} />
+                            <img src={atores[2].img3} />
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Josh_Duhamel" target="blank">
-                                    Josh Duhamel
-                                </a> como Capt. William Lennox
+                                <a href={atores[2].link3} target="_blank">
+                                    {atores[2].ator3}
+                                </a> {atores[2].personagem3}
                             </p>
-                        </li>
+                        </li>}
+
+                        {atores.length >= 4 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Jon_Voight" target="blank">
-                                    Jon Voight
-                                </a> como John Keller, Secretário de Defesa
+                                <a href={atores[3].link4} target="_blank">
+                                    {atores[3].ator4}
+                                </a> {atores[3].personagem4}
                             </p>
-                            <img src={JohnKeller} />
-                        </li>
+                            <img src={atores[3].img4} />
+                        </li>}
+
+                        {atores.length >= 5 &&
                         <li className={styles.position_normal}>
-                            <img src={Epps} />
+                            <img src={atores[4].img5} />
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Tyrese_Gibson" target="blank">
-                                    Tyrese Gibson
-                                </a> como Sgto. Epps
+                                <a href={atores[4].link5} target="_blank">
+                                    {atores[4].ator5}
+                                </a> {atores[4].personagem5}
                             </p>
-                        </li>
+                        </li>}
+
                     </ul>
+                    
                     <ul>
+
+                        {atores.length >= 6 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/John_Turturro" target="blank">
-                                    John Turturro
-                                </a> como Seymour Simmons
+                                <a href={atores[5].link6} target="_blank">
+                                    {atores[5].ator6}
+                                </a> {atores[5].personagem6}
                             </p>
-                            <img src={SeymourSimmons} />
-                        </li>
+                            <img src={atores[5].img6} />
+                        </li>}
+
+                        {atores.length >= 7 &&
                         <li className={styles.position_normal}>
-                            <img src={MaggieMadsen} />
+                            <img src={atores[6].img7} />
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Rachael_Taylor" target="blank">
-                                    Rachael Taylor
-                                </a> como Maggie Madsen
+                                <a href={atores[6].link7} target="_blank">
+                                    {atores[6].ator7}
+                                </a> {atores[6].personagem7}
                             </p>
-                        </li>
+                        </li>}
+
+                        {atores.length >= 8 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Anthony_Anderson" target="blank">
-                                    Anthony Anderson
-                                </a> como Glenn
+                                <a href={atores[7].link8} target="__blank">
+                                    {atores[7].ator8}
+                                </a> {atores[7].personagem8}
                             </p>
-                            <img src={Glenn} />
-                        </li>
+                            <img src={atores[7].img8} />
+                        </li>}
+
+
+                        {atores.length >= 9 &&
                         <li className={styles.position_normal}>
-                            <img src={Miles} />
+                            <img src={atores[8].img9} />
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/John_Robinson" target="blank">
-                                    John Robinson
-                                </a> como Miles
+                                <a href={atores[8].link9} target="_blank">
+                                    {atores[8].ator9}
+                                </a> {atores[8].personagem9}
                             </p>
-                        </li>
+                        </li>}
+
+                        {atores.length >= 10 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href="https://pt.wikipedia.org/wiki/Bernie_Mac" target="blank">
-                                    Bernie Mac 
-                                </a> como Bobby Bolivia
+                                <a href={atores[9].link10} target="_blank">
+                                    {atores[9].ator10} 
+                                </a> {atores[9].personagem10}
                             </p>
-                            <img src={BobbyBolivia} />
-                        </li>
+                            <img src={atores[9].img10} />
+                        </li>}
                     </ul>
                 </section>
             }

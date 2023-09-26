@@ -13,7 +13,7 @@ const Loading = (classCustomPosition) => {
         }, 3000)
         
     }, [])
-    console.log(time);
+    
     return (
         <>
             {time === true && 
