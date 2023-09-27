@@ -2,16 +2,16 @@ import Container from "../components/Container"
 import Redes from "../components/layout/Redes"
 import SwitchInfor from "../components/layout/SwitchInfor"
 
-import SamWitwicky from "../img/Sam-Witwicky.jpg"
-import MikaelaBanes from "../img/Mikaela-Banes.jpg"
-import WilliamLennox from "../img/Capt.-William-Lennox.jpg"
-import JohnKeller from "../img/John-Keller.jpg"
-import Epps from "../img/Epps.jpg"
-import SeymourSimmons from "../img/Agent_simmons.jpg"
-import MaggieMadsen from "../img/Rachael-Taylor.jpg"
-import Glenn from "../img/Glen-Whitmann.jpg"
-import Miles from "../img/Miles.jpg"
-import BobbyBolivia from "../img/Bobby-Bolivia.jpg"
+import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg"
+import MikaelaBanes from "../img/Atores/Mikaela-Banes.jpeg"
+import WilliamLennox from "../img/Atores/Capt.-William-Lennox.webp"
+import JohnKeller from "../img/Atores/jon-voight.jpg"
+import Epps from "../img/Atores/Epps.jpeg"
+import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg"
+import MaggieMadsen from "../img/Atores/Rachael-Taylor.jpeg"
+import Glenn from "../img/Atores/Glen-Whitmann.jpeg"
+import Miles from "../img/Atores/Miles.jpg"
+import BobbyBolivia from "../img/Atores/Bobby-Bolivia.webp"
 
 
 function TransformersOne() {
@@ -92,8 +92,7 @@ function TransformersOne() {
                 <Container key={infor.title} backGroundCustom="back_groud" backGroundImgCustom="backgound_img_1">
                     <SwitchInfor 
                         title={infor.title} 
-                        textSinopse={infor.textSinopse} 
-                        page={ 1 } 
+                        textSinopse={infor.textSinopse}
                         linkTrailer="https://www.youtube.com/embed/v8ItGrI-Ou0?" 
                         atores={atores}
                         />

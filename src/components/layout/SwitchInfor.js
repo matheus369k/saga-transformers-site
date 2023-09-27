@@ -5,7 +5,7 @@ import styles from "./SwitchInfor.module.css"
 
 import Loading from "./Loading"
 
-function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
+function SwitchInfor({ linkTrailer, title, textSinopse, atores }) {
     const [inforPage, setInforPage] = useState(1)
 
     return (
@@ -16,7 +16,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                 <li onClick={() => setInforPage(3)}></li>
             </ul>
             
-            {page === 1 && inforPage === 1 &&
+            {inforPage === 1 &&
                 
                 <section className={styles.sinopse}>
                     <Loading />
@@ -25,7 +25,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                     <p>{textSinopse}</p>
                 </section>
             }
-            {page === 1 && inforPage === 2 &&
+            {inforPage === 2 &&
                 <section className={styles.infor_dublador_ator}>
                     <Loading />
                     <ul>
@@ -34,7 +34,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         <li key={atores[0].ator1} className={styles.position_normal}>
                             <img src={atores[0].img1} alt="ator(a) img" />
                             <p>
-                                <a href={atores[0].link1} target="_blank" rel="noopener">
+                                <a href={atores[0].link1} target="_blank">
                                     {atores[0].ator1}
                                 </a> {atores[0].personagem1}
                             </p>
@@ -43,7 +43,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         {atores.length >= 2 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href={atores[1].link2} target="_blank" rel="noopener">
+                                <a href={atores[1].link2} target="_blank">
                                     {atores[1].ator2}
                                 </a> {atores[1].personagem2}
                             </p>
@@ -54,7 +54,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         <li className={styles.position_normal}>
                             <img src={atores[2].img3} alt="ator(a) img" />
                             <p>
-                                <a href={atores[2].link3} target="_blank" rel="noopener">
+                                <a href={atores[2].link3} target="_blank">
                                     {atores[2].ator3}
                                 </a> {atores[2].personagem3}
                             </p>
@@ -63,7 +63,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         {atores.length >= 4 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href={atores[3].link4} target="_blank" rel="noopener">
+                                <a href={atores[3].link4} target="_blank">
                                     {atores[3].ator4}
                                 </a> {atores[3].personagem4}
                             </p>
@@ -74,7 +74,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         <li className={styles.position_normal}>
                             <img src={atores[4].img5} alt="ator(a) img" />
                             <p>
-                                <a href={atores[4].link5} target="_blank" rel="noopener">
+                                <a href={atores[4].link5} target="_blank">
                                     {atores[4].ator5}
                                 </a> {atores[4].personagem5}
                             </p>
@@ -87,7 +87,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         {atores.length >= 6 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href={atores[5].link6} target="_blank" rel="noopener">
+                                <a href={atores[5].link6} target="_blank">
                                     {atores[5].ator6}
                                 </a> {atores[5].personagem6}
                             </p>
@@ -98,7 +98,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         <li className={styles.position_normal}>
                             <img src={atores[6].img7} alt="ator(a) img" />
                             <p>
-                                <a href={atores[6].link7} target="_blank" rel="noopener">
+                                <a href={atores[6].link7} target="_blank">
                                     {atores[6].ator7}
                                 </a> {atores[6].personagem7}
                             </p>
@@ -107,7 +107,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         {atores.length >= 8 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href={atores[7].link8} target="_blank" rel="noopener">
+                                <a href={atores[7].link8} target="_blank">
                                     {atores[7].ator8}
                                 </a> {atores[7].personagem8}
                             </p>
@@ -119,7 +119,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         <li className={styles.position_normal}>
                             <img src={atores[8].img9} alt="ator(a) img" />
                             <p>
-                                <a href={atores[8].link9} target="_blank" rel="noopener">
+                                <a href={atores[8].link9} target="_blank">
                                     {atores[8].ator9}
                                 </a> {atores[8].personagem9}
                             </p>
@@ -128,7 +128,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                         {atores.length >= 10 &&
                         <li className={styles.position_reverser}>
                             <p>
-                                <a href={atores[9].link10} target="_blank" rel="noopener">
+                                <a href={atores[9].link10} target="_blank">
                                     {atores[9].ator10} 
                                 </a> {atores[9].personagem10}
                             </p>
@@ -137,7 +137,7 @@ function SwitchInfor({ page, linkTrailer, title, textSinopse, atores }) {
                     </ul>
                 </section>
             }
-            { page === 1 && inforPage === 3 &&
+            {inforPage === 3 &&
                 <section className={styles.midia}>
                     <div>
                         <Loading />
