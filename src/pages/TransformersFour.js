@@ -23,66 +23,79 @@ function TransformersFour() {
         }
     ]
 
-    const atores = [
+    const OneListAtores = [
         { 
-            "ator1" : "Mark Wahlberg", 
-            "personagem1": "como Cade Yeager", 
-            "img1": MarkWahlberg, 
-            "link1" : "https://pt.wikipedia.org/wiki/Mark_Wahlberg"
+            "ator" : "Mark Wahlberg", 
+            "personagem": "como Cade Yeager", 
+            "img": MarkWahlberg, 
+            "link" : "https://pt.wikipedia.org/wiki/Mark_Wahlberg",
+            "position" : "position_normal"
         },
         { 
-            "ator2" : "Nicola Peltz", 
-            "personagem2": "como Tessa Yeager", 
-            "img2": NicolaPeltz, 
-            "link2" : "https://pt.wikipedia.org/wiki/Nicola_Peltz"
+            "ator" : "Nicola Peltz", 
+            "personagem": "como Tessa Yeager", 
+            "img": NicolaPeltz, 
+            "link" : "https://pt.wikipedia.org/wiki/Nicola_Peltz",
+            "position" : "position_reverser"
         },
         { 
-            "ator3" : "Jack Reynor", 
-            "personagem3": "como Shane", 
-            "img3": JackReynor, 
-            "link3" : "https://pt.wikipedia.org/wiki/Jack_Reynor"
+            "ator" : "Jack Reynor", 
+            "personagem": "como Shane", 
+            "img": JackReynor, 
+            "link" : "https://pt.wikipedia.org/wiki/Jack_Reynor",
+            "position" : "position_normal"
         },
         { 
-            "ator4" : "Stanley Tucci", 
-            "personagem4": "como Joshua" , 
-            "img4": StanleyTucci, 
-            "link4" : "https://pt.wikipedia.org/wiki/Stanley_Tucci"
+            "ator" : "Stanley Tucci", 
+            "personagem": "como Joshua" , 
+            "img": StanleyTucci, 
+            "link" : "https://pt.wikipedia.org/wiki/Stanley_Tucci",
+            "position" : "position_reverser"
         },
         { 
-            "ator5" : "Li Bingbing", 
-            "personagem5": " como Su Yuerning", 
-            "img5": LiBingbing, 
-            "link5" : "https://pt.wikipedia.org/wiki/Li_Bingbing"
+            "ator" : "Li Bingbing", 
+            "personagem": " como Su Yuerning", 
+            "img": LiBingbing, 
+            "link" : "https://pt.wikipedia.org/wiki/Li_Bingbing",
+            "position" : "position_normal"
+        },
+    ]
+
+    const TwoListAtores = [
+        { 
+            "ator" : "Kelsey Grammer", 
+            "personagem": "como Harold Attinger", 
+            "img": KelseyGrammer, 
+            "link" : "https://pt.wikipedia.org/wiki/Kelsey_Grammer",
+            "position" : "position_reverser"
         },
         { 
-            "ator6" : "Kelsey Grammer", 
-            "personagem6": "como Harold Attinger", 
-            "img6": KelseyGrammer, 
-            "link6" : "https://pt.wikipedia.org/wiki/Kelsey_Grammer"
+            "ator" : "Titus Welliver", 
+            "personagem": "como Savoy", 
+            "img": TitusWelliver, 
+            "link" : "https://pt.wikipedia.org/wiki/Titus_Welliver",
+            "position" : "position_normal"
         },
         { 
-            "ator7" : "Titus Welliver", 
-            "personagem7": "como Savoy", 
-            "img7": TitusWelliver, 
-            "link7" : "https://pt.wikipedia.org/wiki/Titus_Welliver"
+            "ator" : "Thomas Lennon", 
+            "personagem": "como Chief of Staff", 
+            "img": ThomasLennon, 
+            "link" : "https://pt.wikipedia.org/wiki/Thomas_Lennon",
+            "position" : "position_reverser"
         },
         { 
-            "ator8" : "Thomas Lennon", 
-            "personagem8": "como Chief of Staff", 
-            "img8": ThomasLennon, 
-            "link8" : "https://pt.wikipedia.org/wiki/Thomas_Lennon"
+            "ator" : "Sophia Myles", 
+            "personagem": "como Darcy", 
+            "img": SophiaMyles, 
+            "link" : "https://pt.wikipedia.org/wiki/Sophia_Myles",
+            "position" : "position_normal"
         },
         { 
-            "ator9" : "Sophia Myles", 
-            "personagem9": "como Darcy", 
-            "img9": SophiaMyles, 
-            "link9" : "https://pt.wikipedia.org/wiki/Sophia_Myles"
-        },
-        { 
-            "ator10" : "T.J.Miller", 
-            "personagem10": "como Lucas", 
-            "img10": TJMiller, 
-            "link10" : "https://pt.wikipedia.org/wiki/T._J._Miller"
+            "ator" : "T.J.Miller", 
+            "personagem": "como Lucas", 
+            "img": TJMiller, 
+            "link" : "https://pt.wikipedia.org/wiki/T._J._Miller",
+            "position" : "position_reverser"
         },
     ]
 
@@ -94,7 +107,8 @@ function TransformersFour() {
                         title={infor.title} 
                         textSinopse={infor.textSinopse}
                         linkTrailer="https://www.youtube.com/embed/BcVlQy5aUQg?si=-qylPPaqF3zy1ujj" 
-                        atores={atores}
+                        OneListAtores={OneListAtores}
+                        TwoListAtores={TwoListAtores}
                     />
                     <Redes />
                 </Container>

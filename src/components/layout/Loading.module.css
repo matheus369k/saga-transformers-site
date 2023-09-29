@@ -1,13 +1,10 @@
-.loading_container{
-    position: absolute;
-    z-index: 1;
-}
-
+.loading_container,
 .loading_container svg{
-    font-size: 4em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 2em;
+    z-index: 1;
 }
 

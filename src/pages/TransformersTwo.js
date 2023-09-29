@@ -25,66 +25,79 @@ function TransformersTwo() {
         }
     ]
 
-    const atores = [
+    const OneListAtores = [
         { 
-            "ator1" : "Shia LaBeouf", 
-            "personagem1": "como Sam Witwicky", 
-            "img1": SamWitwicky, 
-            "link1" : "https://pt.wikipedia.org/wiki/Shia_LaBeouf"
+            "ator" : "Shia LaBeouf", 
+            "personagem": "como Sam Witwicky", 
+            "img": SamWitwicky, 
+            "link" : "https://pt.wikipedia.org/wiki/Shia_LaBeouf",
+            "position" : "position_normal"
         },
         { 
-            "ator2" : "Megan Fox", 
-            "personagem2": "como Mikaela Banes", 
-            "img2": MikaelaBanes, 
-            "link2" : "https://pt.wikipedia.org/wiki/Megan_Fox"
+            "ator" : "Megan Fox", 
+            "personagem": "como Mikaela Banes", 
+            "img": MikaelaBanes, 
+            "link" : "https://pt.wikipedia.org/wiki/Megan_Fox",
+            "position" : "position_reverser"
         },
         { 
-            "ator3" : "Josh Duhamel", 
-            "personagem3": "como Capt. William Lennox", 
-            "img3": WilliamLennox, 
-            "link3" : "https://pt.wikipedia.org/wiki/Josh_Duhamel"
+            "ator" : "Josh Duhamel", 
+            "personagem": "como Capt. William Lennox", 
+            "img": WilliamLennox, 
+            "link" : "https://pt.wikipedia.org/wiki/Josh_Duhamel",
+            "position" : "position_normal"
         },
         { 
-            "ator4" : "Ramón Rodríguez", 
-            "personagem4": "como Leo Ponce" , 
-            "img4": LeoPonce, 
-            "link4" : "https://pt.wikipedia.org/wiki/Ram%C3%B3n_Rodr%C3%ADguez"
+            "ator" : "Ramón Rodríguez", 
+            "personagem": "como Leo Ponce" , 
+            "img": LeoPonce, 
+            "link" : "https://pt.wikipedia.org/wiki/Ram%C3%B3n_Rodr%C3%ADguez",
+            "position" : "position_reverser"
         },
         { 
-            "ator5" : "Tyrese Gibson", 
-            "personagem5": "como Sgto. Epps", 
-            "img5": Epps, 
-            "link5" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson"
+            "ator" : "Tyrese Gibson", 
+            "personagem": "como Sgto. Epps", 
+            "img": Epps, 
+            "link" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson",
+            "position" : "position_normal"
+        }
+    ]
+
+    const TwoListAtores = [
+        { 
+            "ator" : "John Turturro", 
+            "personagem": "como Seymour Simmons", 
+            "img": SeymourSimmons, 
+            "link" : "https://pt.wikipedia.org/wiki/John_Turturro",
+            "position" : "position_reverser"
         },
         { 
-            "ator6" : "John Turturro", 
-            "personagem6": "como Seymour Simmons", 
-            "img6": SeymourSimmons, 
-            "link6" : "https://pt.wikipedia.org/wiki/John_Turturro"
+            "ator" : "Kevin Dunn", 
+            "personagem": "como Ron Witwicky", 
+            "img": RonWitwicky, 
+            "link" : "https://en.wikipedia.org/wiki/Kevin_Dunn",
+            "position" : "position_normal"
         },
         { 
-            "ator7" : "Kevin Dunn", 
-            "personagem7": "como Ron Witwicky", 
-            "img7": RonWitwicky, 
-            "link7" : "https://en.wikipedia.org/wiki/Kevin_Dunn"
+            "ator" : "Julie White", 
+            "personagem": "como Judy Witwicky", 
+            "img": JudyWitwicky, 
+            "link" : "https://pt.wikipedia.org/wiki/Julie_White",
+            "position" : "position_reverser"
         },
         { 
-            "ator8" : "Julie White", 
-            "personagem8": "como Judy Witwicky", 
-            "img8": JudyWitwicky, 
-            "link8" : "https://pt.wikipedia.org/wiki/Julie_White"
+            "ator" : "John Benjamin Hickey.", 
+            "personagem": "como Theodore Galloway", 
+            "img": TheodoreGalloway, 
+            "link" : "https://pt.wikipedia.org/wiki/John_Benjamin_Hickey",
+            "position" : "position_normal"
         },
         { 
-            "ator9" : "John Benjamin Hickey.", 
-            "personagem9": "como Theodore Galloway", 
-            "img9": TheodoreGalloway, 
-            "link9" : "https://pt.wikipedia.org/wiki/John_Benjamin_Hickey"
-        },
-        { 
-            "ator10" : "Glenn Morshower", 
-            "personagem10": "como General Morshower",  
-            "img10": GeneralMorshower, 
-            "link10" : "https://pt.wikipedia.org/wiki/Glenn_Morshower"
+            "ator" : "Glenn Morshower", 
+            "personagem": "como General Morshower",  
+            "img": GeneralMorshower, 
+            "link" : "https://pt.wikipedia.org/wiki/Glenn_Morshower",
+            "position" : "position_reverser"
         },
     ]
 
@@ -96,7 +109,8 @@ function TransformersTwo() {
                         title={infor.title} 
                         textSinopse={infor.textSinopse} 
                         linkTrailer="https://www.youtube.com/embed/fnXzKwUgDhg?" 
-                        atores={atores}
+                        OneListAtores={OneListAtores}
+                        TwoListAtores={TwoListAtores}
                     />
                     <Redes />
                 </Container>

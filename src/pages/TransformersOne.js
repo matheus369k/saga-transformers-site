@@ -23,66 +23,79 @@ function TransformersOne() {
         }
     ]
 
-    const atores = [
+    const OneListAtores = [
             { 
-                "ator1" : "Shia LaBeouf", 
-                "personagem1": "como Sam Witwicky", 
-                "img1": SamWitwicky, 
-                "link1" : "https://pt.wikipedia.org/wiki/Shia_LaBeouf"
+                "ator" : "Shia LaBeouf", 
+                "personagem": "como Sam Witwicky", 
+                "img": SamWitwicky, 
+                "link" : "https://pt.wikipedia.org/wiki/Shia_LaBeouf",
+                "position" : "position_normal"
             },
             { 
-                "ator2" : "Megan Fox", 
-                "personagem2": "como Mikaela Banes", 
-                "img2": MikaelaBanes, 
-                "link2" : "https://pt.wikipedia.org/wiki/Megan_Fox"
+                "ator" : "Megan Fox", 
+                "personagem": "como Mikaela Banes", 
+                "img": MikaelaBanes, 
+                "link" : "https://pt.wikipedia.org/wiki/Megan_Fox",
+                "position" : "position_reverser"
             },
             { 
-                "ator3" : "Josh Duhamel", 
-                "personagem3": "como Capt. William Lennox", 
-                "img3": WilliamLennox, 
-                "link3" : "https://pt.wikipedia.org/wiki/Josh_Duhamel"
+                "ator" : "Josh Duhamel", 
+                "personagem": "como Capt. William Lennox", 
+                "img": WilliamLennox, 
+                "link" : "https://pt.wikipedia.org/wiki/Josh_Duhamel",
+                "position" : "position_normal"
             },
             { 
-                "ator4" : "Jon Voight", 
-                "personagem4": "como John Keller, Secretário de Defesa" , 
-                "img4": JohnKeller, 
-                "link4" : "https://pt.wikipedia.org/wiki/Jon_Voight"
+                "ator" : "Jon Voight", 
+                "personagem": "como John Keller, Secretário de Defesa" , 
+                "img": JohnKeller, 
+                "link" : "https://pt.wikipedia.org/wiki/Jon_Voight",
+                "position" : "position_reverser"
             },
             { 
-                "ator5" : "Tyrese Gibson", 
-                "personagem5": "como Sgto. Epps", 
-                "img5": Epps, 
-                "link5" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson"
+                "ator" : "Tyrese Gibson", 
+                "personagem": "como Sgto. Epps", 
+                "img": Epps, 
+                "link" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson",
+                "position" : "position_normal"
+            }
+    ]
+
+    const TwoListAtores = [
+            { 
+                "ator" : "John Turturro", 
+                "personagem": "como Seymour Simmons", 
+                "img": SeymourSimmons, 
+                "link" : "https://pt.wikipedia.org/wiki/John_Turturro",
+                "position" : "position_reverser"
             },
             { 
-                "ator6" : "John Turturro", 
-                "personagem6": "como Seymour Simmons", 
-                "img6": SeymourSimmons, 
-                "link6" : "https://pt.wikipedia.org/wiki/John_Turturro"
+                "ator" : "Rachael Taylor", 
+                "personagem": "como Maggie Madsen", 
+                "img": MaggieMadsen, 
+                "link" : "https://pt.wikipedia.org/wiki/Rachael_Taylor",
+                "position" : "position_normal"
             },
             { 
-                "ator7" : "Rachael Taylor", 
-                "personagem7": "como Maggie Madsen", 
-                "img7": MaggieMadsen, 
-                "link7" : "https://pt.wikipedia.org/wiki/Rachael_Taylor"
+                "ator" : "Anthony Anderson", 
+                "personagem": "como Glenn", 
+                "img": Glenn, 
+                "link" : "https://pt.wikipedia.org/wiki/Anthony_Anderson",
+                "position" : "position_reverser"
             },
             { 
-                "ator8" : "Anthony Anderson", 
-                "personagem8": "como Glenn", 
-                "img8": Glenn, 
-                "link8" : "https://pt.wikipedia.org/wiki/Anthony_Anderson"
+                "ator" : "John Robinson", 
+                "personagem": "como Miles", 
+                "img": Miles, 
+                "link" : "https://pt.wikipedia.org/wiki/John_Robinson",
+                "position" : "position_normal"
             },
             { 
-                "ator9" : "John Robinson", 
-                "personagem9": "como Miles", 
-                "img9": Miles, 
-                "link9" : "https://pt.wikipedia.org/wiki/John_Robinson"
-            },
-            { 
-                "ator10" : "Bernie Mac ", 
-                "personagem10": "como Bobby Bolivia",  
-                "img10": BobbyBolivia, 
-                "link10" : "https://pt.wikipedia.org/wiki/Bernie_Mac"
+                "ator" : "Bernie Mac ", 
+                "personagem": "como Bobby Bolivia",  
+                "img": BobbyBolivia, 
+                "link" : "https://pt.wikipedia.org/wiki/Bernie_Mac",
+                "position" : "position_reverser"
             },
     ]
 
@@ -94,7 +107,8 @@ function TransformersOne() {
                         title={infor.title} 
                         textSinopse={infor.textSinopse}
                         linkTrailer="https://www.youtube.com/embed/v8ItGrI-Ou0?" 
-                        atores={atores}
+                        OneListAtores={OneListAtores}
+                        TwoListAtores={TwoListAtores}
                         />
                     <Redes />
                 </Container>))

@@ -5,11 +5,11 @@ import styles from "./SwitchInfor.module.css"
 
 import Loading from "./Loading"
 
-function SwitchInfor({ linkTrailer, title, textSinopse, atores }) {
+function SwitchInfor({ linkTrailer, title, textSinopse, OneListAtores, TwoListAtores }) {
     const [inforPage, setInforPage] = useState(1)
 
     return (
-        <>
+        <div className={styles.container_all}>
             <ul className={styles.list_icons}>
                 <li onClick={() => setInforPage(1)}></li>
                 <li onClick={() => setInforPage(2)}></li>
@@ -29,111 +29,28 @@ function SwitchInfor({ linkTrailer, title, textSinopse, atores }) {
                 <section className={styles.infor_dublador_ator}>
                     <Loading />
                     <ul>
-
-                        {atores.length >= 1 &&
-                        <li key={atores[0].ator1} className={styles.position_normal}>
-                            <img src={atores[0].img1} alt="ator(a) img" />
-                            <p>
-                                <a href={atores[0].link1} target="_blank">
-                                    {atores[0].ator1}
-                                </a> {atores[0].personagem1}
-                            </p>
-                        </li>}
-
-                        {atores.length >= 2 &&
-                        <li className={styles.position_reverser}>
-                            <p>
-                                <a href={atores[1].link2} target="_blank">
-                                    {atores[1].ator2}
-                                </a> {atores[1].personagem2}
-                            </p>
-                            <img src={atores[1].img2} alt="ator(a) img" />
-                        </li>}
-
-                        {atores.length >= 3 &&
-                        <li className={styles.position_normal}>
-                            <img src={atores[2].img3} alt="ator(a) img" />
-                            <p>
-                                <a href={atores[2].link3} target="_blank">
-                                    {atores[2].ator3}
-                                </a> {atores[2].personagem3}
-                            </p>
-                        </li>}
-
-                        {atores.length >= 4 &&
-                        <li className={styles.position_reverser}>
-                            <p>
-                                <a href={atores[3].link4} target="_blank">
-                                    {atores[3].ator4}
-                                </a> {atores[3].personagem4}
-                            </p>
-                            <img src={atores[3].img4} alt="ator(a) img" />
-                        </li>}
-
-                        {atores.length >= 5 &&
-                        <li className={styles.position_normal}>
-                            <img src={atores[4].img5} alt="ator(a) img" />
-                            <p>
-                                <a href={atores[4].link5} target="_blank">
-                                    {atores[4].ator5}
-                                </a> {atores[4].personagem5}
-                            </p>
-                        </li>}
-
+                        { OneListAtores.map((ator) => (
+                            <li key={ator.ator} className={`${styles[ator.position]}`}>
+                                <img src={ator.img} alt="ator(a) img" />
+                                <p>
+                                    <a href={ator.link} target="_blank">
+                                        {ator.ator}
+                                    </a> {ator.personagem}
+                                </p>
+                            </li>
+                        ))}
                     </ul>
-                    
                     <ul>
-
-                        {atores.length >= 6 &&
-                        <li className={styles.position_reverser}>
-                            <p>
-                                <a href={atores[5].link6} target="_blank">
-                                    {atores[5].ator6}
-                                </a> {atores[5].personagem6}
-                            </p>
-                            <img src={atores[5].img6} alt="ator(a) img" />
-                        </li>}
-
-                        {atores.length >= 7 &&
-                        <li className={styles.position_normal}>
-                            <img src={atores[6].img7} alt="ator(a) img" />
-                            <p>
-                                <a href={atores[6].link7} target="_blank">
-                                    {atores[6].ator7}
-                                </a> {atores[6].personagem7}
-                            </p>
-                        </li>}
-
-                        {atores.length >= 8 &&
-                        <li className={styles.position_reverser}>
-                            <p>
-                                <a href={atores[7].link8} target="_blank">
-                                    {atores[7].ator8}
-                                </a> {atores[7].personagem8}
-                            </p>
-                            <img src={atores[7].img8} alt="ator(a) img" />
-                        </li>}
-
-
-                        {atores.length >= 9 &&
-                        <li className={styles.position_normal}>
-                            <img src={atores[8].img9} alt="ator(a) img" />
-                            <p>
-                                <a href={atores[8].link9} target="_blank">
-                                    {atores[8].ator9}
-                                </a> {atores[8].personagem9}
-                            </p>
-                        </li>}
-
-                        {atores.length >= 10 &&
-                        <li className={styles.position_reverser}>
-                            <p>
-                                <a href={atores[9].link10} target="_blank">
-                                    {atores[9].ator10} 
-                                </a> {atores[9].personagem10}
-                            </p>
-                            <img src={atores[9].img10} alt="ator(a) img" />
-                        </li>}
+                        { TwoListAtores.map((ator) => (
+                            <li key={ator.ator} className={`${styles[ator.position]}`}>
+                                <img src={ator.img} alt="ator(a) img" />
+                                <p>
+                                    <a href={ator.link} target="_blank">
+                                        {ator.ator}
+                                    </a> {ator.personagem}
+                                </p>
+                            </li>
+                        ))}
                     </ul>
                 </section>
             }
@@ -145,7 +62,7 @@ function SwitchInfor({ linkTrailer, title, textSinopse, atores }) {
                     </div>
                 </section>
             }
-        </>
+        </div>
     )
     
 }

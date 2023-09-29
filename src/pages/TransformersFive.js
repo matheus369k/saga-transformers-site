@@ -22,66 +22,79 @@ function TransformersFive() {
         }
     ]
 
-    const atores = [
+    const OneListAtores = [
         { 
-            "ator1" : "Mark Wahlberg", 
-            "personagem1": "como Cade Yeager", 
-            "img1": MarkWahlberg, 
-            "link1" : "https://pt.wikipedia.org/wiki/Mark_Wahlberg"
+            "ator" : "Mark Wahlberg", 
+            "personagem": "como Cade Yeager", 
+            "img": MarkWahlberg, 
+            "link" : "https://pt.wikipedia.org/wiki/Mark_Wahlberg",
+            "position" : "position_normal"
         },
         { 
-            "ator2" : "Isabela Moner", 
-            "personagem2": "como Izabella", 
-            "img2": Izabella , 
-            "link2" : "https://pt.wikipedia.org/wiki/Isabela_Merced"
+            "ator" : "Isabela Moner", 
+            "personagem": "como Izabella", 
+            "img": Izabella , 
+            "link" : "https://pt.wikipedia.org/wiki/Isabela_Merced",
+            "position" : "position_reverser"
         },
         { 
-            "ator3" : "Laura Haddock", 
-            "personagem3": "como Viviane Wembley", 
-            "img3": VivianeWembley, 
-            "link3" : "https://pt.wikipedia.org/wiki/Laura_Haddock"
+            "ator" : "Laura Haddock", 
+            "personagem": "como Viviane Wembley", 
+            "img": VivianeWembley, 
+            "link" : "https://pt.wikipedia.org/wiki/Laura_Haddock",
+            "position" : "position_normal"
         },
         { 
-            "ator4" : "Josh Duhamel", 
-            "personagem4": "como William Lenoxx" , 
-            "img4": JoshDuhamel, 
-            "link4" : "https://pt.wikipedia.org/wiki/Josh_Duhamel"
+            "ator" : "Josh Duhamel", 
+            "personagem": "como William Lenoxx" , 
+            "img": JoshDuhamel, 
+            "link" : "https://pt.wikipedia.org/wiki/Josh_Duhamel",
+            "position" : "position_reverser"
         },
         { 
-            "ator5" : "John Turturro", 
-            "personagem5": " como Seymour Simmons", 
-            "img5": JohnTurturro, 
-            "link5" : "https://pt.wikipedia.org/wiki/John_Turturro"
+            "ator" : "John Turturro", 
+            "personagem": " como Seymour Simmons", 
+            "img": JohnTurturro, 
+            "link" : "https://pt.wikipedia.org/wiki/John_Turturro",
+            "position" : "position_normal"
+        },
+    ]
+
+    const TwoListAtores = [
+        { 
+            "ator" : "Anthony Hopkins", 
+            "personagem": "como Sir Edmund Burton", 
+            "img": AnthonyHopkins, 
+            "link" : "https://pt.wikipedia.org/wiki/Anthony_Hopkins",
+            "position" : "position_reverser"
         },
         { 
-            "ator6" : "Anthony Hopkins", 
-            "personagem6": "como Sir Edmund Burton", 
-            "img6": AnthonyHopkins, 
-            "link6" : "https://pt.wikipedia.org/wiki/Anthony_Hopkins"
+            "ator" : "Jerrod Carmichael", 
+            "personagem": "como Jimmy Jay", 
+            "img": JerrodCarmichael, 
+            "link" : "https://tfwiki.net/wiki/Jimmy_(TLK)",
+            "position" : "position_normal"
         },
         { 
-            "ator7" : "Jerrod Carmichael", 
-            "personagem7": "como Jimmy Jay", 
-            "img7": JerrodCarmichael, 
-            "link7" : "https://tfwiki.net/wiki/Jimmy_(TLK)"
+            "ator" : "Santiago Cabrera", 
+            "personagem": "como Santos", 
+            "img": SantiagoCabrera, 
+            "link" : "https://pt.wikipedia.org/wiki/Santiago_Cabrera",
+            "position" : "position_reverser"
         },
         { 
-            "ator8" : "Santiago Cabrera", 
-            "personagem8": "como Santos", 
-            "img8": SantiagoCabrera, 
-            "link8" : "https://pt.wikipedia.org/wiki/Santiago_Cabrera"
+            "ator" : "Glenn Morshower", 
+            "personagem": "como General Morshower",  
+            "img": GeneralMorshower, 
+            "link" : "https://pt.wikipedia.org/wiki/Glenn_Morshower",
+            "position" : "position_normal"
         },
         { 
-            "ator9" : "Glenn Morshower", 
-            "personagem9": "como General Morshower",  
-            "img9": GeneralMorshower, 
-            "link9" : "https://pt.wikipedia.org/wiki/Glenn_Morshower"
-        },
-        { 
-            "ator10" : "Stanley Tucci", 
-            "personagem10": "como Merlin", 
-            "img10": StanleyTucci, 
-            "link10" : "https://pt.wikipedia.org/wiki/Stanley_Tucci"
+            "ator" : "Stanley Tucci", 
+            "personagem": "como Merlin", 
+            "img": StanleyTucci, 
+            "link" : "https://pt.wikipedia.org/wiki/Stanley_Tucci",
+            "position" : "position_reverser"
         },
     ]
 
@@ -93,7 +106,8 @@ function TransformersFive() {
                         title={infor.title} 
                         textSinopse={infor.textSinopse}
                         linkTrailer="https://www.youtube.com/embed/bzKbEBPsmo0?si=keQw0BKLy3EemrTa" 
-                        atores={atores}
+                        OneListAtores={OneListAtores}
+                        TwoListAtores={TwoListAtores}
                     />
                     <Redes />
                 </Container>
