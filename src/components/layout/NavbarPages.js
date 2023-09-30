@@ -17,39 +17,39 @@ function Navbar() {
     <div className={styles.container_img_tamble}>
         <Container>
             <li>
-                <Link to="/" >
-                    <img src={TransformersOneImg} />
+                <Link to="/">
+                    <img src={TransformersOneImg} alt="Transformers 1"/>
                 </Link>
             </li>
             <li>
                 <Link to="/transformerstwo" >
-                    <img src={TransformersTwoImg} />
+                    <img src={TransformersTwoImg} alt="Transformers 2"/>
                 </Link>
                 
             </li>
             <li>
                 <Link to="/transfromersthree" >
-                    <img src={TransformersThreeImg} />
+                    <img src={TransformersThreeImg} alt="Transformers 3"/>
                 </Link>
             </li>
             <li>
                 <Link to="/transformersfour" >
-                    <img src={TransformersFourImg} />
+                    <img src={TransformersFourImg} alt="Transformers 4"/>
                 </Link>
             </li>
             <li>
                 <Link to="/transformersfive" >
-                    <img src={TransformersFiveImg} />
+                    <img src={TransformersFiveImg} alt="Transformers 5"/>
                 </Link>
             </li>
             <li>
                 <Link to="/transformerssix" >
-                    <img src={TransformersSixImg} />
+                    <img src={TransformersSixImg} alt="Transformers 6"/>
                 </Link>
             </li>
             <li>
                 <Link to="/transformersseven" >
-                    <img src={TransformersSevenImg} />
+                    <img src={TransformersSevenImg} alt="Transformers 7"/>
                 </Link>
             </li>
         </Container>

@@ -33,7 +33,7 @@ function SwitchInfor({ linkTrailer, title, textSinopse, OneListAtores, TwoListAt
                             <li key={ator.ator} className={`${styles[ator.position]}`}>
                                 <img src={ator.img} alt="ator(a) img" />
                                 <p>
-                                    <a href={ator.link} target="_blank">
+                                    <a href={ator.link} target="_blank" rel="noreferrer">
                                         {ator.ator}
                                     </a> {ator.personagem}
                                 </p>
@@ -45,7 +45,7 @@ function SwitchInfor({ linkTrailer, title, textSinopse, OneListAtores, TwoListAt
                             <li key={ator.ator} className={`${styles[ator.position]}`}>
                                 <img src={ator.img} alt="ator(a) img" />
                                 <p>
-                                    <a href={ator.link} target="_blank">
+                                    <a href={ator.link} target="_blank" rel="noreferrer">
                                         {ator.ator}
                                     </a> {ator.personagem}
                                 </p>

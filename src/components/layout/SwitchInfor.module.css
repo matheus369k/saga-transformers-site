@@ -72,6 +72,7 @@ li {
 
 @media ( max-width: 434px) {
     .sinopse h1 {
+        margin-bottom: 40px;
         font-size: 1.8em;
     }
 }
