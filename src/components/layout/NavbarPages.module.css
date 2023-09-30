@@ -43,6 +43,7 @@
     .container_img_tamble img {
         height: 40px;
         width: 70px;
+        margin-left: -10px;
     }
 }
 
