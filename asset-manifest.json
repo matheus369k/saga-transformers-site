@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/saga-transformers-site/transformersone/static/css/main.083e7461.css",
-    "main.js": "/saga-transformers-site/transformersone/static/js/main.786b40f0.js",
+    "main.css": "/saga-transformers-site/transformersone/static/css/main.fcf81a47.css",
+    "main.js": "/saga-transformers-site/transformersone/static/js/main.3f70592a.js",
     "static/media/transformers-7.jpeg": "/saga-transformers-site/transformersone/static/media/transformers-7.fb029dcd7dc6fbd1b735.jpeg",
     "static/media/transformers-3.jpg": "/saga-transformers-site/transformersone/static/media/transformers-3.6e05513a9f405fd42a87.jpg",
     "static/media/transformers-5.jpg": "/saga-transformers-site/transformersone/static/media/transformers-5.ce1a610b8de83df5cea1.jpg",
@@ -67,11 +67,11 @@
     "static/media/transformers-tumble-6.png": "/saga-transformers-site/transformersone/static/media/transformers-tumble-6.4f0b6888021db61b652f.png",
     "static/media/Thomas-Lennon.webp": "/saga-transformers-site/transformersone/static/media/Thomas-Lennon.65fb9717e24047eb5b2c.webp",
     "index.html": "/saga-transformers-site/transformersone/index.html",
-    "main.083e7461.css.map": "/saga-transformers-site/transformersone/static/css/main.083e7461.css.map",
-    "main.786b40f0.js.map": "/saga-transformers-site/transformersone/static/js/main.786b40f0.js.map"
+    "main.fcf81a47.css.map": "/saga-transformers-site/transformersone/static/css/main.fcf81a47.css.map",
+    "main.3f70592a.js.map": "/saga-transformers-site/transformersone/static/js/main.3f70592a.js.map"
   },
   "entrypoints": [
-    "static/css/main.083e7461.css",
-    "static/js/main.786b40f0.js"
+    "static/css/main.fcf81a47.css",
+    "static/js/main.3f70592a.js"
   ]
 }
