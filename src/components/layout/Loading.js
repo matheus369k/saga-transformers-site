@@ -10,7 +10,7 @@ const Loading = (classCustomPosition) => {
     useEffect (() => {
         setTimeout(() => {
             setTime(false)
-        }, 3000)
+        }, 2000)
         
     }, [])
     

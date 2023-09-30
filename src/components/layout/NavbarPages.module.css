@@ -5,8 +5,23 @@
     align-items: center;
     position: fixed;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate( -50%, 0%);
     bottom: -5px;
+}
+
+
+@media ( max-width: 768px) {
+    .container_img_tamble {
+        bottom: 10%;
+    }
+}
+
+
+@media ( max-width: 434px) {
+    .container_img_tamble {
+        bottom: 2%;
+        left: 55%;
+    }
 }
 
 .container_img_tamble li {
@@ -21,6 +36,14 @@
     margin-left: -30px;
     border: 1px solid rgb(18, 18, 18);
     border-radius: 40px 0 40px 0;
+}
+
+
+@media ( max-width: 434px) {
+    .container_img_tamble img {
+        height: 40px;
+        width: 70px;
+    }
 }
 
 .container_img_tamble img:hover {

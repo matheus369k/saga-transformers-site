@@ -6,9 +6,26 @@
     z-index: 0;
 }
 
+
+@media ( max-width: 768px) {
+    .redes {
+        display: flex;
+        flex-direction: row;
+        top: 5%;
+        left: 5%;
+    }
+}
+
 .redes {
     list-style: none;
     gap: 40px;
+}
+
+
+@media ( max-width: 434px) {
+    .redes {
+        gap: 20px;
+    }
 }
 
 svg {
