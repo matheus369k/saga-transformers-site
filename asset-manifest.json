@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/saga-transformers-site/static/css/main.ba338826.css",
+    "main.css": "/saga-transformers-site/static/css/main.c5c3b0f6.css",
     "main.js": "/saga-transformers-site/static/js/main.94eca8ad.js",
     "static/media/transformers-7.jpeg": "/saga-transformers-site/static/media/transformers-7.fb029dcd7dc6fbd1b735.jpeg",
     "static/media/transformers-3.jpg": "/saga-transformers-site/static/media/transformers-3.6e05513a9f405fd42a87.jpg",
@@ -67,11 +67,11 @@
     "static/media/transformers-tumble-6.png": "/saga-transformers-site/static/media/transformers-tumble-6.4f0b6888021db61b652f.png",
     "static/media/Thomas-Lennon.webp": "/saga-transformers-site/static/media/Thomas-Lennon.65fb9717e24047eb5b2c.webp",
     "index.html": "/saga-transformers-site/index.html",
-    "main.ba338826.css.map": "/saga-transformers-site/static/css/main.ba338826.css.map",
+    "main.c5c3b0f6.css.map": "/saga-transformers-site/static/css/main.c5c3b0f6.css.map",
     "main.94eca8ad.js.map": "/saga-transformers-site/static/js/main.94eca8ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba338826.css",
+    "static/css/main.c5c3b0f6.css",
     "static/js/main.94eca8ad.js"
   ]
 }
