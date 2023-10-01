@@ -14,46 +14,46 @@ import TransformersSevenImg from '../../img/transformers-tumble-7.png'
 function Navbar() {
 
     return (
-    <div className={styles.container_img_tamble}>
-        <Container>
-            <li>
-                <Link to="/">
-                    <img src={TransformersOneImg} alt="Transformers 1"/>
-                </Link>
-            </li>
-            <li>
-                <Link to="/transformerstwo" >
-                    <img src={TransformersTwoImg} alt="Transformers 2"/>
-                </Link>
-                
-            </li>
-            <li>
-                <Link to="/transfromersthree" >
-                    <img src={TransformersThreeImg} alt="Transformers 3"/>
-                </Link>
-            </li>
-            <li>
-                <Link to="/transformersfour" >
-                    <img src={TransformersFourImg} alt="Transformers 4"/>
-                </Link>
-            </li>
-            <li>
-                <Link to="/transformersfive" >
-                    <img src={TransformersFiveImg} alt="Transformers 5"/>
-                </Link>
-            </li>
-            <li>
-                <Link to="/transformerssix" >
-                    <img src={TransformersSixImg} alt="Transformers 6"/>
-                </Link>
-            </li>
-            <li>
-                <Link to="/transformersseven" >
-                    <img src={TransformersSevenImg} alt="Transformers 7"/>
-                </Link>
-            </li>
-        </Container>
-    </div>
+        <div className={styles.container_img_tamble}>
+            <Container>
+                <li>
+                    <Link to="/">
+                        <img src={TransformersOneImg} alt="Transformers 1"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/transformerstwo">
+                        <img src={TransformersTwoImg} alt="Transformers 2"/>
+                    </Link>
+                    
+                </li>
+                <li>
+                    <Link to="/transfromersthree">
+                        <img src={TransformersThreeImg} alt="Transformers 3"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/transformersfour">
+                        <img src={TransformersFourImg} alt="Transformers 4"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/transformersfive">
+                        <img src={TransformersFiveImg} alt="Transformers 5"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/transformerssix">
+                        <img src={TransformersSixImg} alt="Transformers 6"/>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/transformersseven">
+                        <img src={TransformersSevenImg} alt="Transformers 7"/>
+                    </Link>
+                </li>
+            </Container>
+        </div>
     )
 }
 
