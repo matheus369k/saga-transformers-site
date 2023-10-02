@@ -1,17 +1,17 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
-import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg"
-import RosieHuntingtonWhiteley from "../img/Atores/Rosie-Huntington-Whiteley.jpeg"
-import WilliamLennox from "../img/Atores/Capt.-William-Lennox.webp"
-import PatrickDempsey from "../img/Atores/Patrick-Dempsey.jpeg"
-import Epps from "../img/Atores/Epps.jpeg"
-import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg"
-import JohnMalkovich from "../img/Atores/John-Malkovich.jpeg"
-import KenJeong from "../img/Atores/Ken-Jeong.jpeg"
-import RonWitwicky  from "../img/Atores/Ron-Witwicky.jpeg"
-import JudyWitwicky from "../img/Atores/Judy-Witwicky.jpeg"
+import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg";
+import RosieHuntingtonWhiteley from "../img/Atores/Rosie-Huntington-Whiteley.jpeg";
+import WilliamLennox from "../img/Atores/Capt.-William-Lennox.jpeg";
+import PatrickDempsey from "../img/Atores/Patrick-Dempsey.jpeg";
+import Epps from "../img/Atores/Epps.jpeg";
+import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg";
+import JohnMalkovich from "../img/Atores/John-Malkovich.jpeg";
+import KenJeong from "../img/Atores/Ken-Jeong.jpeg";
+import RonWitwicky  from "../img/Atores/Ron-Witwicky.jpeg";
+import JudyWitwicky from "../img/Atores/Judy-Witwicky.jpeg";
 
 function TransformersThree() {
 
@@ -20,7 +20,7 @@ function TransformersThree() {
             "title": " Transformers: O Lado Oculto da Lua",
             "textSinopse": "Sam acaba de se formar na faculdade e agora procura emprego, mas terá que enfrentar, novamente, as ameaças de Megatron e seus aliados, numa batalha que começou na década de 1960 com a corrida à Lua. Para esse desafio, contará com o apoio de Optimus e dos outros autobots, além de sua nova namorada."
         }
-    ]
+    ];
 
     const OneListAtores = [
         { 
@@ -57,8 +57,8 @@ function TransformersThree() {
             "img": Epps, 
             "link" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson",
             "position" : "position_normal"
-        },
-    ]
+        }
+    ];
 
     const TwoListAtores = [
         { 
@@ -95,8 +95,8 @@ function TransformersThree() {
             "img": JudyWitwicky, 
             "link" : "https://pt.wikipedia.org/wiki/Julie_White",
             "position" : "position_reverser"
-        },
-]
+        }
+    ];
 
     return (
         <div>
@@ -115,6 +115,6 @@ function TransformersThree() {
         </div>
 
     )
-}
+};
 
-export default TransformersThree
+export default TransformersThree;

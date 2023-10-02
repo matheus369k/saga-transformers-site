@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     flex-direction: row;
     margin: 20px 50px;
@@ -15,31 +15,23 @@
 }
 
 .backgound_img_1 {
-    background-image: url("../img/transformers-1.jpg");
+    background-image: url("../img/transformers-1.jpeg");
 }
-
 .backgound_img_2 {
-    background-image: url("../img/transformers-2.jpg");
+    background-image: url("../img/transformers-2.jpeg");
 }
-
 .backgound_img_3 {
-    background-image: url("../img/transformers-3.jpg");
+    background-image: url("../img/transformers-3.jpeg");
 }
-
 .backgound_img_4 {
-    background-image: url("../img/transformers-4.jpg");
+    background-image: url("../img/transformers-4.jpeg");
 }
-
 .backgound_img_5 {
-    background-image: url("../img/transformers-5.jpg");
+    background-image: url("../img/transformers-5.jpeg");
 }
-
 .backgound_img_6 {
-    background-image: url("../img/transformers-6.jpg");
+    background-image: url("../img/transformers-6.jpeg");
 }
-
 .backgound_img_7 {
     background-image: url("../img/transformers-7.jpeg");
 }
-
-

@@ -1,17 +1,17 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
-import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg"
-import MikaelaBanes from "../img/Atores/Mikaela-Banes.jpeg"
-import WilliamLennox from "../img/Atores/Capt.-William-Lennox.webp"
-import JohnKeller from "../img/Atores/jon-voight.jpg"
-import Epps from "../img/Atores/Epps.jpeg"
-import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg"
-import MaggieMadsen from "../img/Atores/Rachael-Taylor.jpeg"
-import Glenn from "../img/Atores/Glen-Whitmann.jpeg"
-import Miles from "../img/Atores/Miles.jpg"
-import BobbyBolivia from "../img/Atores/Bobby-Bolivia.webp"
+import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg";
+import MikaelaBanes from "../img/Atores/Mikaela-Banes.jpeg";
+import WilliamLennox from "../img/Atores/Capt.-William-Lennox.jpeg";
+import JohnKeller from "../img/Atores/jon-voight.jpeg";
+import Epps from "../img/Atores/Epps.jpeg";
+import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg";
+import MaggieMadsen from "../img/Atores/Rachael-Taylor.jpeg";
+import Glenn from "../img/Atores/Glen-Whitmann.jpeg";
+import Miles from "../img/Atores/Miles.jpeg";
+import BobbyBolivia from "../img/Atores/Bobby-Bolivia.jpeg";
 
 
 function TransformersOne() {
@@ -21,7 +21,7 @@ function TransformersOne() {
             "title": "Transformers",
             "textSinopse": "Os Transformers alienígenas gigantes que vivem na Terra camuflados sob a forma de carros, aviões e aparelhos eletrônicos, batalham por uma fonte de energia escondida em nosso planeta: são os cruéis Decepticons, determinados a dominar o Universo, contra os pacíficos Autobots. Enquanto isso, os adolescentes Sam e Mikaela vivem tranquilamente sua vida sem saber que a fonte tão cobiçada pelos alienígenas está com eles."
         }
-    ]
+    ];
 
     const OneListAtores = [
             { 
@@ -59,7 +59,7 @@ function TransformersOne() {
                 "link" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson",
                 "position" : "position_normal"
             }
-    ]
+    ];
 
     const TwoListAtores = [
             { 
@@ -96,8 +96,8 @@ function TransformersOne() {
                 "img": BobbyBolivia, 
                 "link" : "https://pt.wikipedia.org/wiki/Bernie_Mac",
                 "position" : "position_reverser"
-            },
-    ]
+            }
+    ];
 
     return (
         <div>
@@ -115,6 +115,6 @@ function TransformersOne() {
             }
         </div>
     )
-}
+};
 
-export default TransformersOne
+export default TransformersOne;

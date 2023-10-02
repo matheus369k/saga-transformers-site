@@ -1,17 +1,17 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
-import MarkWahlberg from "../img/Atores/Mark-Wahlberg.jpeg"
-import NicolaPeltz from "../img/Atores/Nicola-Peltz.jpg"
-import JackReynor from "../img/Atores/Jack-Reynor.jpeg"
-import StanleyTucci from "../img/Atores/Stanley-Tucci.jpeg"
-import LiBingbing from "../img/Atores/Li-Bingbing.jpeg"
-import KelseyGrammer from "../img/Atores/Kelsey-Grammer.jpeg"
-import TitusWelliver from "../img/Atores/Titus-Welliver.jpeg"
-import ThomasLennon from "../img/Atores/Thomas-Lennon.webp"
-import SophiaMyles  from "../img/Atores/Sophia-Myles.jpeg"
-import TJMiller from "../img/Atores/T-J-Miller.jpeg"
+import MarkWahlberg from "../img/Atores/Mark-Wahlberg.jpeg";
+import NicolaPeltz from "../img/Atores/Nicola-Peltz.jpeg";
+import JackReynor from "../img/Atores/Jack-Reynor.jpeg";
+import StanleyTucci from "../img/Atores/Stanley-Tucci.jpeg";
+import LiBingbing from "../img/Atores/Li-Bingbing.jpeg";
+import KelseyGrammer from "../img/Atores/Kelsey-Grammer.jpeg";
+import TitusWelliver from "../img/Atores/Titus-Welliver.jpeg";
+import ThomasLennon from "../img/Atores/Thomas-Lennon.jpeg";
+import SophiaMyles  from "../img/Atores/Sophia-Myles.jpeg";
+import TJMiller from "../img/Atores/T-J-Miller.jpeg";
 
 function TransformersFour() {
     
@@ -21,7 +21,7 @@ function TransformersFour() {
             "title": "Transformers: A Era da Extinção",
             "textSinopse": "Após a batalha entre os Autobots e os Decepticons, que arrasou Chicago, os gigantescos robôs alienígenas desapareceram. Atualmente, eles são caçados pelos humanos, que não desejam passar por apuros novamente. Porém, enquanto a humanidade tenta se recuperar dessa terrível batalha, uma nova ameaça paira sobre a Terra."
         }
-    ]
+    ];
 
     const OneListAtores = [
         { 
@@ -58,8 +58,8 @@ function TransformersFour() {
             "img": LiBingbing, 
             "link" : "https://pt.wikipedia.org/wiki/Li_Bingbing",
             "position" : "position_normal"
-        },
-    ]
+        }
+    ];
 
     const TwoListAtores = [
         { 
@@ -96,8 +96,8 @@ function TransformersFour() {
             "img": TJMiller, 
             "link" : "https://pt.wikipedia.org/wiki/T._J._Miller",
             "position" : "position_reverser"
-        },
-    ]
+        }
+    ];
 
     return (
         <div>
@@ -116,6 +116,6 @@ function TransformersFour() {
         </div>
 
     )
-}
+};
 
-export default TransformersFour
+export default TransformersFour;

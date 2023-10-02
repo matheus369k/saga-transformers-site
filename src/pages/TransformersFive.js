@@ -1,17 +1,17 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
-import MarkWahlberg from "../img/Atores/Mark-Wahlberg.jpeg"
-import Izabella from "../img/Atores/Isabela-Moner.jpeg"
-import VivianeWembley from "../img/Atores/Laura-Haddock.jpg"
-import JoshDuhamel from "../img/Atores/Capt.-William-Lennox.webp"
-import JohnTurturro from "../img/Atores/Agent_simmons.jpeg"
-import AnthonyHopkins from "../img/Atores/Anthony-Hopkins.jpeg"
-import JerrodCarmichael from "../img/Atores/Jerrod-Carmichael.webp"
-import SantiagoCabrera from "../img/Atores/Santiago-Cabrera.webp"
-import GeneralMorshower  from "../img/Atores/General-Morshower.jpeg"
-import StanleyTucci from "../img/Atores/Stanley-Tucci.jpeg"
+import MarkWahlberg from "../img/Atores/Mark-Wahlberg.jpeg";
+import Izabella from "../img/Atores/Isabela-Moner.jpeg";
+import VivianeWembley from "../img/Atores/Laura-Haddock.jpeg";
+import JoshDuhamel from "../img/Atores/Capt.-William-Lennox.jpeg";
+import JohnTurturro from "../img/Atores/Agent_simmons.jpeg";
+import AnthonyHopkins from "../img/Atores/Anthony-Hopkins.jpeg";
+import JerrodCarmichael from "../img/Atores/Jerrod-Carmichael.jpeg";
+import SantiagoCabrera from "../img/Atores/Santiago-Cabrera.jpeg";
+import GeneralMorshower  from "../img/Atores/General-Morshower.jpeg";
+import StanleyTucci from "../img/Atores/Stanley-Tucci.jpeg";
 
 function TransformersFive() {
 
@@ -20,7 +20,7 @@ function TransformersFive() {
             "title": "Transformers: O Último Cavaleiro",
             "textSinopse": "A história se desenrola em meio a uma guerra entre humanos e Transformers, que são forçados a se esconder. Cade Yeager lidera um núcleo de resistência em um ferro-velho. Enquanto isso, Optimus Prime embarca em uma jornada pelo universo até Cybertron para entender as razões de sua destruição. O filme também apresenta o vilão colossal Unicron, uma entidade robótica que devora planetas, e marca o retorno dos Dinobots."
         }
-    ]
+    ];
 
     const OneListAtores = [
         { 
@@ -58,7 +58,7 @@ function TransformersFive() {
             "link" : "https://pt.wikipedia.org/wiki/John_Turturro",
             "position" : "position_normal"
         },
-    ]
+    ];
 
     const TwoListAtores = [
         { 
@@ -96,7 +96,7 @@ function TransformersFive() {
             "link" : "https://pt.wikipedia.org/wiki/Stanley_Tucci",
             "position" : "position_reverser"
         },
-    ]
+    ];
 
     return (
         <div>
@@ -116,5 +116,5 @@ function TransformersFive() {
 
     )
 }
-
-export default TransformersFive
+;
+export default TransformersFive;

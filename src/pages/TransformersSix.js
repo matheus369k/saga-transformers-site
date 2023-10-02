@@ -1,17 +1,17 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
-import HaileeSteinfeld from "../img/Atores/Hailee-Steinfeld.jpg"
-import JohnCena from "../img/Atores/John-Cena.jpg"
-import JorgeLendeborgJr from "../img/Atores/Jorge-Lendeborg-Jr.jpeg"
-import JohnOrtiz from "../img/Atores/John-Ortiz.webp"
-import JasonDrucker from "../img/Atores/Jason-Drucker.jpg"
-import PamelaAdlon from "../img/Atores/Pamela-Adlon.jpeg"
-import StephenSchneide from "../img/Atores/Stephen-Schneider.jpg"
-import LenCariou from "../img/Atores/Len-Cariou.jpeg"
-import GlynnTurman  from "../img/Atores/Glynn-Turman.webp"
-import GracieDzienny from "../img/Atores/Gracie-Dzienny.jpg"
+import HaileeSteinfeld from "../img/Atores/Hailee-Steinfeld.jpeg";
+import JohnCena from "../img/Atores/John-Cena.jpeg";
+import JorgeLendeborgJr from "../img/Atores/Jorge-Lendeborg-Jr.jpeg";
+import JohnOrtiz from "../img/Atores/John-Ortiz.jpeg";
+import JasonDrucker from "../img/Atores/Jason-Drucker.jpeg";
+import PamelaAdlon from "../img/Atores/Pamela-Adlon.jpeg";
+import StephenSchneide from "../img/Atores/Stephen-Schneider.jpeg";
+import LenCariou from "../img/Atores/Len-Cariou.jpeg";
+import GlynnTurman  from "../img/Atores/Glynn-Turman.jpeg";
+import GracieDzienny from "../img/Atores/Gracie-Dzienny.jpeg";
 
 function TransformersSix() {
 
@@ -20,7 +20,7 @@ function TransformersSix() {
             "title": "Bumblebee",
             "textSinopse": "Cybertron foi derrotado. Quando Optimus Prime envia Bumblebee para defender a Terra, tem início sua jornada até se tornar um herói. Charlie Watson (HAILEE STEINFELD), uma adolescente que procura seu espaço no mundo, descobre e repara o robô, cheio de danos e disfarçado de Fusca."
         }
-    ]
+    ];
     
 
     const OneListAtores = [
@@ -58,8 +58,8 @@ function TransformersSix() {
             "img": JasonDrucker, 
             "link" : "https://en.wikipedia.org/wiki/Jason_Drucker",
             "position" : "position_normal"
-        },
-    ]
+        }
+    ];
 
     const TwoListAtores = [
         { 
@@ -96,8 +96,8 @@ function TransformersSix() {
             "img": GracieDzienny, 
             "link" : "https://en.wikipedia.org/wiki/Gracie_Dzienny",
             "position" : "position_reverser"
-        },
-    ]
+        }
+    ];
 
     return (
         <div>
@@ -116,6 +116,6 @@ function TransformersSix() {
         </div>
 
     )
-}
+};
 
-export default TransformersSix
+export default TransformersSix;

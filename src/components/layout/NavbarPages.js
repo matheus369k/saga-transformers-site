@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 
-import styles from './NavbarPages.module.css'
+import styles from './NavbarPages.module.css';
+
 import Container from "../Container";
 
-import TransformersOneImg from '../../img/transformers-tumble-1.png'
-import TransformersTwoImg from '../../img/transformers-tumble-2.png'
-import TransformersThreeImg from '../../img/transformers-tumble-3.png'
-import TransformersFourImg from '../../img/transformers-tumble-4.png'
-import TransformersFiveImg from '../../img/transformers-tumble-5.png'
-import TransformersSixImg from '../../img/transformers-tumble-6.png'
-import TransformersSevenImg from '../../img/transformers-tumble-7.png'
+import TransformersOneImg from '../../img/transformers-tumble-1.png';
+import TransformersTwoImg from '../../img/transformers-tumble-2.png';
+import TransformersThreeImg from '../../img/transformers-tumble-3.png';
+import TransformersFourImg from '../../img/transformers-tumble-4.png';
+import TransformersFiveImg from '../../img/transformers-tumble-5.png';
+import TransformersSixImg from '../../img/transformers-tumble-6.png';
+import TransformersSevenImg from '../../img/transformers-tumble-7.png';
 
 function Navbar() {
 

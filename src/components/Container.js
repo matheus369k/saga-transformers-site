@@ -1,4 +1,4 @@
-import styles from './Container.module.css'
+import styles from './Container.module.css';
 
  
 function Container({ children, backGroundImgCustom, backGroundCustom, textClassCustom }) {
@@ -7,6 +7,6 @@ function Container({ children, backGroundImgCustom, backGroundCustom, textClassC
             {children}
         </div>
     )
-}
+};
 
-export default Container
+export default Container;

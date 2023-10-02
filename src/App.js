@@ -25,7 +25,7 @@ function App() {
         <Route path='/transformersseven' element={<TransformersSeven />} />
       </Routes>
     </>
-  );
-}
+  )
+};
 
 export default App;

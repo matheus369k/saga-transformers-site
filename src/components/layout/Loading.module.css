@@ -1,17 +1,15 @@
 .loading_container {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.759);
-    z-index: 1;
-
     width: 100vw;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.759);
+    z-index: 1;
 }
 
-.loading_container svg{
+.loading_container svg {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
 }
-

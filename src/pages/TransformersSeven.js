@@ -1,13 +1,13 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
-import AnthonyRamos from "../img/Atores/Anthony-Ramos.jpeg"
-import DominiqueFishback from "../img/Atores/Dominique-Fishback.webp"
-import LunaLauren from "../img/Atores/Luna-Lauren-Velez.jpeg"
-import DeanScottVasquez from "../img/Atores/Dean-Scott-Vasquez.jpeg"
-import TobeNwigwe from "../img/Atores/Tobe-Nwigwe.jpeg"
-import MichaelKelly from "../img/Atores/Michael-Kelly.jpeg"
+import AnthonyRamos from "../img/Atores/Anthony-Ramos.jpeg";
+import DominiqueFishback from "../img/Atores/Dominique-Fishback.jpeg";
+import LunaLauren from "../img/Atores/Luna-Lauren-Velez.jpeg";
+import DeanScottVasquez from "../img/Atores/Dean-Scott-Vasquez.jpeg";
+import TobeNwigwe from "../img/Atores/Tobe-Nwigwe.jpeg";
+import MichaelKelly from "../img/Atores/Michael-Kelly.jpeg";
 
 function TransformersSeven() {
 
@@ -16,7 +16,7 @@ function TransformersSeven() {
             "title": "Transformers: O Despertar das Feras",
             "textSinopse": ". O filme apresenta os Maximals, Predacons e Terrorcons se juntando à batalha entre os Autobots e Decepticons na Terra1. Noah (Anthony Ramos), um jovem astuto do Brooklyn, e Elena (Dominique Fishback), uma ambiciosa e talentosa pesquisadora de artefatos, são arrastados para o conflito enquanto Optimus Prime e os Autobots enfrentam o terrível novo inimigo empenhado em sua destruição chamado Scourge1"
         }
-    ]
+    ];
 
     const OneListAtores = [
         { 
@@ -40,7 +40,7 @@ function TransformersSeven() {
             "link" : "https://en.wikipedia.org/wiki/Lauren_V%C3%A9lez",
             "position" : "position_normal"
         }
-    ]
+    ];
 
     const TwoListAtores = [
         { 
@@ -64,8 +64,7 @@ function TransformersSeven() {
             "link" : "https://pt.wikipedia.org/wiki/Michael_Kelly_(ator)",
             "position" : "position_reverser"
         }
-    ]
-
+    ];
 
     return (
         <div>
@@ -84,6 +83,6 @@ function TransformersSeven() {
         </div>
 
     )
-}
+};
 
-export default TransformersSeven
+export default TransformersSeven;

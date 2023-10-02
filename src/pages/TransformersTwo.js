@@ -1,20 +1,18 @@
-import Container from "../components/Container"
-import Redes from "../components/layout/Redes"
-import SwitchInfor from "../components/layout/SwitchInfor"
+import Container from "../components/Container";
+import Redes from "../components/layout/Redes";
+import SwitchInfor from "../components/layout/SwitchInfor";
 
 
-import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg"
-import MikaelaBanes from "../img/Atores/Mikaela-Banes.jpeg"
-import WilliamLennox from "../img/Atores/Capt.-William-Lennox.webp"
-import LeoPonce from "../img/Atores/Leo-Ponce.jpeg"
-import Epps from "../img/Atores/Epps.jpeg"
-import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg"
-import RonWitwicky  from "../img/Atores/Ron-Witwicky.jpeg"
-import JudyWitwicky from "../img/Atores/Judy-Witwicky.jpeg"
-import TheodoreGalloway from "../img/Atores/Theodore-Galloway.jpeg"
-import GeneralMorshower from "../img/Atores/General-Morshower.jpeg"
-
-
+import SamWitwicky from "../img/Atores/Sam-Witwicky.jpeg";
+import MikaelaBanes from "../img/Atores/Mikaela-Banes.jpeg";
+import WilliamLennox from "../img/Atores/Capt.-William-Lennox.jpeg";
+import LeoPonce from "../img/Atores/Leo-Ponce.jpeg";
+import Epps from "../img/Atores/Epps.jpeg";
+import SeymourSimmons from "../img/Atores/Agent_simmons.jpeg";
+import RonWitwicky  from "../img/Atores/Ron-Witwicky.jpeg";
+import JudyWitwicky from "../img/Atores/Judy-Witwicky.jpeg";
+import TheodoreGalloway from "../img/Atores/Theodore-Galloway.jpeg";
+import GeneralMorshower from "../img/Atores/General-Morshower.jpeg";
 
 function TransformersTwo() {
 
@@ -23,7 +21,7 @@ function TransformersTwo() {
             "title": " Transformers: A Vingança dos Derrotados",
             "textSinopse": "A Dinastia dos Primes, uma antiga raça de Transformers, usava Ceifadoras Solares para converter energia estelar em Energon. No entanto um Prime chamado “The Fallen”, construiu uma Ceifadora Solar na Terra, violando o acordo de não prejudicar mundos habitados. Como ultima alternativa os Primes se sacrificaram para esconder a Matriz da Liderança, ficando perdida na terra ate os dias atuais, sendo o objetivo de Fallen encontrar a matriz e destruir o sol, condenando a humanidade."
         }
-    ]
+    ];
 
     const OneListAtores = [
         { 
@@ -61,7 +59,7 @@ function TransformersTwo() {
             "link" : "https://pt.wikipedia.org/wiki/Tyrese_Gibson",
             "position" : "position_normal"
         }
-    ]
+    ];
 
     const TwoListAtores = [
         { 
@@ -99,7 +97,7 @@ function TransformersTwo() {
             "link" : "https://pt.wikipedia.org/wiki/Glenn_Morshower",
             "position" : "position_reverser"
         },
-    ]
+    ];
 
     return (
         <div>
@@ -117,6 +115,6 @@ function TransformersTwo() {
             ))}
         </div>
     )
-}
+};
 
-export default TransformersTwo
+export default TransformersTwo;
