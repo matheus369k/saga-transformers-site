@@ -343,14 +343,7 @@ li {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.568);
 }
 
-@media ( min-width: 1224px) {
-    .midia iframe{
-        min-height: 564px;
-        min-width: 1024px;
-    }
-}
-
-@media ( min-width: 868px) and ( max-width: 1224px ) {
+@media ( min-width: 868px){
     .midia iframe {
         min-height: 494px;
         min-width: 850px;
